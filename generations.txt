@@ -1,0 +1,52 @@
+Fermi 
+* 40 and 28nm
+* 2010
+* GeForce 400,500
+* Some GeForce 600,700
+
+Kepler
+* 28nm
+* 2012
+* Most GeForce 600,700
+* Some GeForce 800M
+* Tegra K1 SoC
+
+Maxwell
+* 28nm
+* 2014
+* Most GeForce 700,800
+  * 745, GTX 750/750 Ti, GTX 850M/860M and GeForce 830M/840M
+* GeForce 900
+  * GTX 980/970/960
+
+Pascal
+* TSMC 28nm, Samsung 14nm
+* 2016
+* P100
+* HBM memory
+* GeForce 10 series
+  * P100, 1080, 1070, 1060
+
+Volta
+* 12nm
+* 2017
+* Tensor cores
+* V100s
+* Server/Workstations
+  * TitanV, Quadro GV100, V100
+
+Turing
+* 12nm
+* 2018
+* Ray tracing
+* Tensor cores
+* Quadro RTX, GeForce RTX 20, 16 series
+
+Ampere
+* Samsung 7nm, TSMC ?nm
+* 2020?
+
+Hopper
+* ?nm
+* 202x?
+* Multi-Chip-Module

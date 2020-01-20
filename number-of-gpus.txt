@@ -1,0 +1,22 @@
+srun --nodes 1 --partition multigpu --gres gpu:1 lspci | grep NVIDIA
+41:00.0 3D controller: NVIDIA Corporation GV100GL [Tesla V100 PCIe 32GB] (rev a1)
+81:00.0 3D controller: NVIDIA Corporation GV100GL [Tesla V100 PCIe 32GB] (rev a1)
+
+srun --nodes 1 --partition multigpu --gres gpu:p100:1 lspci | grep NVIDIA
+03:00.0 3D controller: NVIDIA Corporation GP100GL [Tesla P100 PCIe 12GB] (rev a1)
+04:00.0 3D controller: NVIDIA Corporation GP100GL [Tesla P100 PCIe 12GB] (rev a1)
+82:00.0 3D controller: NVIDIA Corporation GP100GL [Tesla P100 PCIe 12GB] (rev a1)
+83:00.0 3D controller: NVIDIA Corporation GP100GL [Tesla P100 PCIe 12GB] (rev a1)
+
+srun --nodes 1 --partition multigpu lspci | grep NVIDIA
+05:00.0 3D controller: NVIDIA Corporation GK210GL [Tesla K80] (rev a1)
+06:00.0 3D controller: NVIDIA Corporation GK210GL [Tesla K80] (rev a1)
+09:00.0 3D controller: NVIDIA Corporation GK210GL [Tesla K80] (rev a1)
+0a:00.0 3D controller: NVIDIA Corporation GK210GL [Tesla K80] (rev a1)
+84:00.0 3D controller: NVIDIA Corporation GK210GL [Tesla K80] (rev a1)
+85:00.0 3D controller: NVIDIA Corporation GK210GL [Tesla K80] (rev a1)
+88:00.0 3D controller: NVIDIA Corporation GK210GL [Tesla K80] (rev a1)
+89:00.0 3D controller: NVIDIA Corporation GK210GL [Tesla K80] (rev a1)
+
+srun --nodes 1 --partition gpu --reservation EECE5640 --gres gpu:1 lspci| grep NVIDIA
+04:00.0 3D controller: NVIDIA Corporation GK110GL [Tesla K20m] (rev a1)
